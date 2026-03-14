@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant C as Client
     participant OS as OrderService
@@ -23,3 +24,4 @@ sequenceDiagram
         
         OS-->>C: 200 OK (Comanda anulata)
     end
+```
