@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant C as Client
     participant OS as OrderService
@@ -27,3 +28,4 @@ sequenceDiagram
         PP-->>OS: Declined
         OS-->>C: 400 Bad Request (Payment Failed)
     end
+```
